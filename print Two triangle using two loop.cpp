@@ -17,9 +17,9 @@ void main()
 			if(j==i && j!=n)
 				printf("%*c",6*(n-j),' ');
 			else if(j>i)
-				ch=ch+1;
+				ch++;
 			else if(j<i)
-				ch=ch+1;
+				ch--;
 			printf("%3c",ch);
 		}
 		printf("\n");
